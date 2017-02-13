@@ -157,9 +157,7 @@ public class SoapDataStore implements CustomDataSourceDriver
     private static SOAPMessage createSOAPRequest(String ZipCode) throws Exception {
     
         MessageFactory messageFactory = MessageFactory.newInstance();
-        
-        SOAPHeader
-        
+                
         SOAPMessage soapMessage = messageFactory.createMessage();
         SOAPPart soapPart = soapMessage.getSOAPPart();
 
